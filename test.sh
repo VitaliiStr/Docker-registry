@@ -18,4 +18,4 @@ cat <<__EOF__>>~/cluster.yaml
 __EOF__
 sleep 5
 kops replace -f cluster.yaml
-#kops update cluster ${NAME} --yes
+kops update cluster ${NAME} --yes
